@@ -67,6 +67,15 @@ button:focus-visible {
   }
 } */
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+h1, h2 {
+ font-family: 'Pacifico', 'serif';
+ font-size: 80px;
+}

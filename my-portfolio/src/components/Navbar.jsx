@@ -4,8 +4,8 @@ const Navbar = () => {
     return ( 
         <>
 
-        <div className="NavContainer">
-            <a href="#Home" className="px-8">Danielle Lee</a>
+        <div className="NavContainer m-8 flex justify-center">
+            <a href="#Home" className="mr-96">Danielle Lee</a>
             <a href="#About" className="px-8">About</a>
             <a href="#Projects" className="px-8">Projects</a>
             <a href="#Contact" className="px-8">Contact</a>
@@ -14,8 +14,10 @@ const Navbar = () => {
         <div className="TopContainer flex justify-evenly">
             <div className="LeftContainer m-8">
                 <h2>Hello I&apos;m Danielle</h2>
-                <p>I&apos;m a Front-End Dev based in London.</p>
+                <div className="aboutMeParagraph text-5xl"> 
+                <p>I&apos;m a Front-End Developer <br /> based in London.</p>
                 <p>Nice to meet you!</p>
+                </div>
                 <button>Projects</button> <button>Contact</button>
             </div>
             <div className="RightContainer m-8">
