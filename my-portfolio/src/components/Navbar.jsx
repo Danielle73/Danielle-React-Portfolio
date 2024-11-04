@@ -11,13 +11,14 @@ const Navbar = () => {
             <a href="#Contact" className="px-8">Contact</a>
         </div>
 
-        <div className="TopContainer flex justify-evenly">
+        <div className="TopContainer flex justify-evenly m-60">
             <div className="LeftContainer m-8">
                 <h2>Hello I&apos;m Danielle</h2>
-                <div className="aboutMeParagraph text-5xl"> 
+                <div className="aboutMeParagraph text-4xl"> 
                 <p>I&apos;m a Front-End Developer <br /> based in London.</p>
                 <p>Nice to meet you!</p>
                 </div>
+                <br />
                 <button>Projects</button> <button>Contact</button>
             </div>
             <div className="RightContainer m-8">
