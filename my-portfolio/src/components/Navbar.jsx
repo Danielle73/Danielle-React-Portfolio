@@ -4,7 +4,7 @@ const Navbar = () => {
     return ( 
         <>
 
-        <div className="NavContainer flex justify-evenly">
+        <div className="NavContainer flex justify-evenly shadow-md">
             <a href="#Home" className="mr-96">Danielle Lee</a>
             <a href="#About" className="px-8">About</a>
             <a href="#Projects" className="px-8">Projects</a>
