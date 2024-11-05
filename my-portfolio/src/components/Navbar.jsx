@@ -1,4 +1,5 @@
 //import React from "react";
+import ProfilePicture from '../assets/ProfilePicture.png';
 
 const Navbar = () => {
     return ( 
@@ -22,7 +23,11 @@ const Navbar = () => {
                 <button>C.V.</button> <button>Contact</button>
             </div>
             <div className="RightContainer m-8">
-                <img src="my-portfolio/src/assets/ProfilePicture.png"></img>
+            <img 
+            src={ProfilePicture} 
+            alt="Profile Picture" 
+            className="rounded-full"
+            width={350}/>
             </div>
         </div>
         
