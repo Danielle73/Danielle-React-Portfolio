@@ -6,7 +6,7 @@ const Homepage = () => {
         <div className="mainContainer flex flex-col justify-center items-center p-3 space-y-4">
 
         {/* about container */}
-        <div className="aboutContainer text-wrap flex-col p-8 ml-36 mr-36">
+        <div className="aboutContainer text-wrap flex-col p-8 ml-36 mr-36 ">
 
         <p>Hi, I&apos;m Danielle, a London-based software developer passionate about front-end development. 
           I discovered coding during lockdown and have been hooked on it ever since. 

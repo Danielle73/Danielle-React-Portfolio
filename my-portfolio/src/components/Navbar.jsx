@@ -6,10 +6,10 @@ const Navbar = () => {
         <>
 
         <div className="NavContainer flex justify-evenly shadow-md">
-            <a href="#Home" className="mr-96">Danielle Lee</a>
-            <a href="#About" className="px-8">About</a>
-            <a href="#Projects" className="px-8">Projects</a>
-            <a href="#Contact" className="px-8">Contact</a>
+            <a href="#Home" className="mr-96 hover:bg-yellow-400">Danielle Lee</a>
+            <a href="#About" className="px-8 hover:bg-yellow-400">About</a>
+            <a href="#Projects" className="px-8 hover:bg-yellow-400">Projects</a>
+            <a href="#Contact" className="px-8 hover:bg-yellow-400">Contact</a>
         </div>
 
         <div className="TopContainer flex justify-evenly mt-28 mb-28">
@@ -26,7 +26,7 @@ const Navbar = () => {
             <img 
             src={ProfilePicture} 
             alt="Profile Picture" 
-            className="rounded-full"
+            className="rounded-full border-8 border-yellow-400"
             width={350}/>
             </div>
         </div>

@@ -11,7 +11,9 @@ function App() {
     <>  
     <Navbar />
 
-    <div className="text-center">
+    {/* projects section */}
+
+    <div id="Projects" className="text-center">
        <h2 className="relative inline-block pb-2 mt-10 mb-4">
           <span>Projects:</span>
         <span 
@@ -35,7 +37,9 @@ function App() {
     />
     
 
-    <div className="text-center">
+    {/* About section */}
+
+    <div id="About" className="text-center">
        <h2 className="relative inline-block pb-2 mt-10 mb-4">
           <span>About:</span>
         <span 
@@ -46,7 +50,9 @@ function App() {
     <Homepage />
 
 
-    <div className="text-center">
+{/* Contact Section */}
+
+    <div id="Contact" className="text-center">
        <h6 className="relative inline-block pb-2 mt-10 mb-4">
           <span>Contact:</span>
         <span 
