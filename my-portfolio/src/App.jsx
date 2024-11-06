@@ -23,10 +23,10 @@ function App() {
           ></span>
         </h2>
         <ProjectCard
-          title="My Project"
-          description="This is my awesome project"
-          imageUrl="/project-image.jpg"
-          repoUrl="https://github.com/myproject"
+          title="Simon Game"
+          description="A color memory game"
+          imageUrl="..my-portfolio/src/assets/SimonGame.png"
+          repoUrl="https://github.com/FAC-community/summer2024/tree/main/users/Danielle%26JackGame/Simon%20game%20Vanilla"
         />
         <ProjectCard
           title="My Project"
