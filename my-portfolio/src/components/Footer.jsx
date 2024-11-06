@@ -11,21 +11,28 @@ const currentYear = new Date().getFullYear();
 
         <>
         <div className="footer flex flex-row justify-center space-x-4 m-5">
-            {/* LinkedIn Icon */}
-            <a href="https://www.linkedin.com/in/danielle-lee-ab8b0887/" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin size={32} color="#4e4b4b" /> {/* Adjust size and color as needed */}
-            </a>
-
-            {/* github */}
-            <a href="https://github.com/Danielle73/" target="_blank" rel="noopener noreferrer">
-                <FaGithub size={32} color="#4e4b4b" /> {/* Adjust size and color as needed */}
-            </a>
-
-             {/* codewars */}
-             <a href="https://www.linkedin.com/in/danielle-lee-ab8b0887/" target="_blank" rel="noopener noreferrer">
-                <SiCodewars size={32} color="#4e4b4b" /> {/* Adjust size and color as needed */}
-            </a>
+    {/* LinkedIn Icon */}
+    <a href="https://www.linkedin.com/in/danielle-lee-ab8b0887/" target="_blank" rel="noopener noreferrer">
+        <div className="border-2 border-yellow-400 p-1 ">
+            <FaLinkedin size={32} color="#4e4b4b" />
         </div>
+    </a>
+
+    {/* Github Icon */}
+    <a href="https://github.com/Danielle73/" target="_blank" rel="noopener noreferrer">
+        <div className="border-2 border-yellow-400 p-1 rounded-full">
+            <FaGithub size={32} color="#4e4b4b" />
+        </div>
+    </a>
+
+    {/* Codewars Icon */}
+    <a href="https://www.linkedin.com/in/danielle-lee-ab8b0887/" target="_blank" rel="noopener noreferrer">
+        <div className="border-2 border-yellow-400 p-1 ">
+            <SiCodewars size={32} color="#4e4b4b" />
+        </div>
+    </a>
+</div>
+
 
         <p className="flex justify-center text-sm" >Danielle Lee {currentYear}</p>
 

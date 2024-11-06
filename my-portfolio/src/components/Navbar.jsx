@@ -22,7 +22,7 @@ const Navbar = () => {
             <p>Nice to meet you!</p>
           </div>
           <br />
-          <button>C.V.</button> <button>Contact</button>
+          <button className="custom-button">LinkedIn</button> <button className="custom-button">Contact</button>
         </div>
         <div className="RightContainer m-8">
           <img 

@@ -34,7 +34,7 @@ const ProjectCard = ({
                 href={repoUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-400 text-black rounded-md hover:bg-blue-700 transition-colors duration-200"
+                className="custom-button inline-flex items-center gap-2"
               >
                 View Repository
                 <ArrowUpRight className="w-4 h-4" />

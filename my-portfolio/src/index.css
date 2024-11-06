@@ -83,9 +83,7 @@ a {
   font-weight: 500;
   text-decoration: inherit;
 }
-a:hover {
-  color: #535bf2;
-}
+
 
 
 h1, h2 {
@@ -107,14 +105,14 @@ a , p {
   color: #4e4b4b;
 }
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  /* background-color: #1a1a1a; */
+  background-color: #1a1a1a; 
   background-color: #FDC435;
   cursor: pointer;
   transition: border-color 0.25s;
@@ -125,7 +123,30 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+} */
+
+.custom-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #FDC435;
+  color: black; /* Set text color for readability */
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
 }
+.custom-button:hover {
+  border-color: #646cff;
+  background-color: #FDC435; /* Match the hover effect from your original CSS */
+}
+.custom-button:focus,
+.custom-button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
 
 .NavContainer {
 background-color: white;
