@@ -22,7 +22,13 @@ const Navbar = () => {
             <p>Nice to meet you!</p>
           </div>
           <br />
-          <button className="custom-button">LinkedIn</button> <button className="custom-button">Contact</button>
+          <button className="custom-button mr-2" 
+          onClick={() => window.open("https://www.linkedin.com/in/danielle-lee-ab8b0887/", "_blank")}
+          >LinkedIn</button> 
+  
+          <button className="custom-button"
+            onClick={() => window.open('https://drive.google.com/file/d/1e5yI5PqJmPUuvbFEHFXB5hDxlwIsJTmv/view?usp=sharing', '_blank')}
+          >C.V.</button>
         </div>
         <div className="RightContainer m-8">
           <img 
