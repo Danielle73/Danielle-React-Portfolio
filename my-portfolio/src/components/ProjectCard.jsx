@@ -1,4 +1,6 @@
 //import React from 'react';
+/* eslint-disable react/prop-types */
+
 import { ArrowUpRight } from 'lucide-react';
 
 const ProjectCard = ({ 

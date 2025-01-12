@@ -44,7 +44,9 @@ const Navbar = () => {
             onClick={() => window.open('https://drive.google.com/file/d/1e5yI5PqJmPUuvbFEHFXB5hDxlwIsJTmv/view?usp=sharing', '_blank')}
           >C.V.</button>
         </div>
-        <div className="RightContainer m-8">
+
+
+        <div className="RightContainer relative m-8">
           <img 
             src={ProfilePicture} 
             alt="Profile Picture" 
