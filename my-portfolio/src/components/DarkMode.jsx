@@ -1,4 +1,4 @@
-import 'my-portfolio/src/DarkTheme.css'
+import './DarkTheme.css';
 
 function DarkTheme(){
     return (
