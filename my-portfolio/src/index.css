@@ -84,8 +84,6 @@ a {
   text-decoration: inherit;
 }
 
-
-
 h1, h2 {
  font-family: 'Pacifico', 'serif';
  font-size: 80px;
@@ -145,8 +143,6 @@ button:focus-visible {
 .custom-button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
-
 
 .NavContainer {
 background-color: white;

@@ -1,0 +1,17 @@
+:root {
+    --primary-bg: #121212;
+    --secondary-bg: #1E1E1E;
+    --accent: #BB86FC;
+    --primary-text: #EDEDED;
+    --secondary-text: #A3A3A3;
+    --borders: #323232;
+    --hover-accent: #3700B3;
+    --success: #03DAC5;
+    --error: #CF6679;
+  }
+  
+  body {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+  }
+  
