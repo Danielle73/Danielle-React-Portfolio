@@ -3,6 +3,7 @@ import ProfilePicture from '../assets/ProfilePicture.png';
 import { FaRegFolder } from "react-icons/fa6";
 import { FaRegAddressCard } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa6";
+import { BsHouseHeart } from "react-icons/bs";
 
 
 
@@ -12,7 +13,7 @@ const Navbar = () => {
     <>
       <div className="NavContainer flex justify-evenly shadow-md">
         {/* Home Link */}
-        <a href="#home" className="mr-96 hover:bg-yellow-400">Danielle Lee</a>
+        <a href="#home" className="mr-96 hover:bg-yellow-400 flex items-center gap-2"><BsHouseHeart className="text-lg"/>Danielle Lee</a>
 
         {/* Other Links */}
         <a href="#about" className="px-8 hover:bg-yellow-400 flex items-center gap-2">
