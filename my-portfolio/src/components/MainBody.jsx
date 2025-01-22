@@ -31,4 +31,4 @@ function MainBody(){
     )
 }
 
-export default MainBody
+export default MainBody;

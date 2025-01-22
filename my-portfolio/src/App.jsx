@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Homepage from './pages/Homepage';
 import ProjectCard from './components/ProjectCard';
 import Footer from './components/Footer';
+import MainBody from './components/MainBody';
 
 import './App.css';
 
@@ -12,6 +13,8 @@ function App() {
       <div id="home"></div>
 
       <Navbar />
+
+      <MainBody />
 
       {/* Projects Section */}
       <div id="projects" className="text-center">

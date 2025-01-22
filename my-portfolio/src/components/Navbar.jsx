@@ -27,6 +27,7 @@ const Navbar = () => {
         <DarkTheme />
 
       </div>
+      
 
     </>
   );
