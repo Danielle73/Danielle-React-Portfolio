@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import MainBody from './components/MainBody';
+import ProjectsGrid from './components/ProjectsGrid';
 
 // import Homepage from './pages/Homepage';
 // import ProjectCard from './components/ProjectCard';
@@ -13,6 +14,8 @@ function App() {
       <Navbar />
 
       <MainBody />
+
+      <ProjectsGrid />
 
 
       {/* Projects Section */}
