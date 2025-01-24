@@ -1,6 +1,7 @@
+import ProfilePicture from '../assets/ProfilePicture.png'; 
 function MainBody(){
-    return (
 
+    return (
       <div className="TopContainer flex justify-evenly mt-28 mb-28">
       <div className="LeftContainer m-8">
         <h2 className='dark-mode'>Hello I&apos;m Danielle</h2>

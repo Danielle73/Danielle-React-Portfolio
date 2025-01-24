@@ -1,8 +1,9 @@
 import Navbar from './components/Navbar';
-import Homepage from './pages/Homepage';
-import ProjectCard from './components/ProjectCard';
-import Footer from './components/Footer';
 import MainBody from './components/MainBody';
+
+// import Homepage from './pages/Homepage';
+// import ProjectCard from './components/ProjectCard';
+// import Footer from './components/Footer';
 
 import './App.css';
 
@@ -15,10 +16,10 @@ function App() {
 
 
       {/* Projects Section */}
-      
+      {/* Import projects grid component here */}
 
       {/* About Section */}
-      <div id="about" className="text-center">
+      {/* <div id="about" className="text-center">
         <h2 className="relative inline-block pb-2 mt-10 mb-4">
           <span>About:</span>
           <span
@@ -27,10 +28,10 @@ function App() {
           ></span>
         </h2>
         <Homepage />
-      </div>
+      </div> */}
 
       {/* Contact Section */}
-      <div id="contact" className="text-center">
+      {/* <div id="contact" className="text-center">
         <h6 className="relative inline-block pb-2 mt-10 mb-4">
           <span>Contact:</span>
           <span
@@ -38,9 +39,9 @@ function App() {
             style={{ backgroundColor: '#FDC435' }}
           ></span>
         </h6>
-      </div>
+      </div> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
