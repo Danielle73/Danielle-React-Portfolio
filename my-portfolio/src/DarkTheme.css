@@ -2,7 +2,7 @@
 :root {
   --primary-bg: #F9FAFF;
   --secondary-bg: #FFFFFF;
-  --accent: #007BFF;
+  /* --accent: #007BFF; */
   --primary-text: #25282B;
   --secondary-text: #6C757D;
   --borders: #E0E0E0;
@@ -12,7 +12,7 @@
 }
 
 /* Dark Theme */
-body.dark-mode {
+/* body.dark-mode {
   --primary-bg: #121212;
   --secondary-bg: #1E1E1E;
   --accent: #BB86FC;
@@ -22,8 +22,20 @@ body.dark-mode {
   --hover-accent: #3700B3;
   --success: #03DAC5;
   --error: #CF6679;
-  --heading-text:white
+} */
+
+body.dark-mode {
+  --primary-bg: #000022; /* For main background to create depth */
+  --secondary-bg: #312c4a; /*Used for sections, cards, or subtle contrast areas*/
+  --accent: #463f59; /*Navbar, buttons, borders, or highlights*/
+  --primary-text: #7E738C;
+  --secondary-text: #897c8f; /*For subtitles, less prominent text, and borders*/
+  --borders: #323232;
+  --hover-accent: #3700B3;
+  --success: #03DAC5;
+  --error: #CF6679;
 }
+
 
 /* Apply Colors */
 body {
@@ -31,9 +43,19 @@ body {
   color: var(--primary-text);
 }
 
-/* h2 {
-  color: var(--heading-text);
-} */
+h2, h6 {
+  color: var(--primary-text);
+} 
+
+p , a {
+  color: var(--secondary-text)
+}
+
+.NavContainer {
+  background-color: var(--accent);
+}
+
+
 
 .toggle-theme-wrapper {
   display: flex;
