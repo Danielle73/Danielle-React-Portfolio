@@ -9,7 +9,9 @@ function AboutSection(){
           <span
             className="absolute bottom-0 left-0 w-full h-2"
             style={{ backgroundColor: '#FDC435' }}
-          ></span>
+          >
+            
+          </span>
         </h2>
         <Homepage />
       </div>

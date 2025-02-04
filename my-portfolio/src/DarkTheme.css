@@ -55,7 +55,9 @@ p , a {
   background-color: var(--accent);
 }
 
-
+.dark-theme-card {
+  background-color: var(--secondary-bg);
+}
 
 .toggle-theme-wrapper {
   display: flex;

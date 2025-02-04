@@ -18,7 +18,6 @@ const Navbar = () => {
         <a href="#about" className="px-8 hover:bg-yellow-400 flex items-center gap-2">
           <FaRegAddressCard className="text-lg" />About</a>
 
-
         <a href="#projects" className="px-8 hover:bg-yellow-400 flex items-center gap-2">
           <FaRegFolder className="text-lg" />Projects</a>
 
