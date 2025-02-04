@@ -22,6 +22,7 @@ body.dark-mode {
   --hover-accent: #3700B3;
   --success: #03DAC5;
   --error: #CF6679;
+  --heading-text:white
 }
 
 /* Apply Colors */
@@ -29,6 +30,10 @@ body {
   background-color: var(--primary-bg);
   color: var(--primary-text);
 }
+
+/* h2 {
+  color: var(--heading-text);
+} */
 
 .toggle-theme-wrapper {
   display: flex;

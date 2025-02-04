@@ -3,8 +3,8 @@ function MainBody(){
 
     return (
       <div className="TopContainer flex justify-evenly mt-28 mb-28">
-      <div className="LeftContainer m-8">
-        <h2>Hello I&apos;m Danielle</h2>
+      <div className="LeftContainer m-3">
+        <h2>Hello I&apos;m <br/> Danielle</h2>
         <div className="aboutMeParagraph text-4xl"> 
           <p>I&apos;m a Front-End Developer <br /> based in London.</p>
           <p>Nice to meet you!</p>
@@ -15,12 +15,12 @@ function MainBody(){
         >LinkedIn</button> 
 
         <button className="custom-button"
-          onClick={() => window.open('https://drive.google.com/file/d/1e5yI5PqJmPUuvbFEHFXB5hDxlwIsJTmv/view?usp=sharing', '_blank')}
+          onClick={() => window.open('https://drive.google.com/file/d/1H-dx_C4KOOyGFic981vRNUDd6Cn1DIqe/view?usp=sharing', '_blank')}
         >C.V.</button>
       </div>
 
 
-      <div className="RightContainer relative m-8">
+      <div className="RightContainer relative m-3 mt-8">
         <img 
           src={ProfilePicture} 
           alt="Profile Picture" 
