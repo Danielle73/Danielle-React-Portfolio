@@ -4,7 +4,7 @@ function MainBody(){
     return (
       <div className="TopContainer flex justify-evenly mt-28 mb-28">
       <div className="LeftContainer m-8">
-        <h2 className='dark-mode'>Hello I&apos;m Danielle</h2>
+        <h2>Hello I&apos;m Danielle</h2>
         <div className="aboutMeParagraph text-4xl"> 
           <p>I&apos;m a Front-End Developer <br /> based in London.</p>
           <p>Nice to meet you!</p>

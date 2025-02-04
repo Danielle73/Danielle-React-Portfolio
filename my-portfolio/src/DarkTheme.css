@@ -1,4 +1,18 @@
+/* Default Light Theme */
 :root {
+  --primary-bg: #F9FAFF;
+  --secondary-bg: #FFFFFF;
+  --accent: #007BFF;
+  --primary-text: #25282B;
+  --secondary-text: #6C757D;
+  --borders: #E0E0E0;
+  --hover-accent: #0056b3;
+  --success: #28A745;
+  --error: #DC3545;
+}
+
+/* Dark Theme */
+body.dark-mode {
   --primary-bg: #121212;
   --secondary-bg: #1E1E1E;
   --accent: #BB86FC;
@@ -10,23 +24,12 @@
   --error: #CF6679;
 }
 
-/* Light Theme (Default) */
+/* Apply Colors */
 body {
-  background-color: #F9FAFF; /* Light background */
-  color: #25282B; /* Light text color */
-}
-
-/* Dark Theme */
-body.dark-mode {
   background-color: var(--primary-bg);
   color: var(--primary-text);
 }
 
-h2.dark-mode {
-  color: var(--primary-text);
-}
-
-/* Custom Dark Mode Toggle Element */
 .toggle-theme-wrapper {
   display: flex;
   flex-direction: row;
@@ -38,15 +41,15 @@ h2.dark-mode {
   font-size: 28px;
 }
 
+.toggle-theme input {
+  display: none;
+}
+
 .toggle-theme {
   position: relative;
   display: inline-block;
   height: 34px;
   width: 60px;
-}
-
-.toggle-theme input {
-  display: none;
 }
 
 .slider {
@@ -57,26 +60,26 @@ h2.dark-mode {
   left: 0;
   right: 0;
   top: 0;
-  transition: 0.2s;
+  transition: 0.4s;
 }
 
 .slider:before {
-  background-color: #fff;
-  bottom: 4px;
+  background-color: white;
   content: "";
-  height: 26px;
-  left: 4px;
   position: absolute;
-  transition: 0.4s;
+  bottom: 4px;
+  left: 4px;
+  height: 26px;
   width: 26px;
-}
-
-input:checked + .slider:before {
-  transform: translateX(26px);
+  transition: 0.4s;
 }
 
 input:checked + .slider {
   background-color: cornflowerblue;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
 }
 
 .slider.round {
