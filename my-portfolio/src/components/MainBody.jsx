@@ -2,6 +2,7 @@ import ProfilePicture from '../assets/ProfilePicture.png';
 function MainBody(){
 
     return (
+      <div id="home">
       <div className="TopContainer flex justify-evenly mt-28 mb-28">
       <div className="LeftContainer m-3">
         <h2>Hello I&apos;m <br/> Danielle</h2>
@@ -19,7 +20,6 @@ function MainBody(){
         >C.V.</button>
       </div>
 
-
       <div className="RightContainer relative m-3 mt-8">
         <img 
           src={ProfilePicture} 
@@ -28,6 +28,7 @@ function MainBody(){
           width={350}
         />
       </div>
+    </div>
     </div>
     )
 }
