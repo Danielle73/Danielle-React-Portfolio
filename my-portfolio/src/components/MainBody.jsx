@@ -20,7 +20,7 @@ function MainBody(){
         >C.V.</button>
       </div>
 
-      <div className="RightContainer relative m-3 mt-8">
+     <div className="RightContainer relative m-3 mt-8">
         <img 
           src={ProfilePicture} 
           alt="Profile Picture" 
