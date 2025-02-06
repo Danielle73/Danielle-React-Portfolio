@@ -13,13 +13,13 @@ function ProjectsGrid(){
     <ProjectCard 
       title="Simon Game"
       description="A color memory game"
-      imageUrl="..my-portfolio/src/assets/SimonGame.png"
+      imageUrl="src/assets/SimonGame.png"
       repoUrl="https://github.com/FAC-community/summer2024/tree/main/users/Danielle%26JackGame/Simon%20game%20Vanilla"
     />
     <ProjectCard
       title="My Project"
       description="This is my awesome project"
-      imageUrl="/project-image.jpg"
+      imageUrl="src/assets/project-image.jpg"
       repoUrl="https://github.com/myproject"
     />
     </div>
