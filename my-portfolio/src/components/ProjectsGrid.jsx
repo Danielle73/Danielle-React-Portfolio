@@ -9,7 +9,8 @@ function ProjectsGrid(){
         style={{ backgroundColor: '#FDC435' }}
       ></span>
     </h2>
-    <ProjectCard
+    <div className="flex flex-wrap mt-28">
+    <ProjectCard 
       title="Simon Game"
       description="A color memory game"
       imageUrl="..my-portfolio/src/assets/SimonGame.png"
@@ -21,6 +22,7 @@ function ProjectsGrid(){
       imageUrl="/project-image.jpg"
       repoUrl="https://github.com/myproject"
     />
+    </div>
   </div>
   )
 }
