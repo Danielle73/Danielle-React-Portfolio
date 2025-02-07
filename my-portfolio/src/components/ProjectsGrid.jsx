@@ -17,11 +17,30 @@ function ProjectsGrid(){
       repoUrl="https://github.com/FAC-community/summer2024/tree/main/users/Danielle%26JackGame/Simon%20game%20Vanilla"
     />
     <ProjectCard
-      title="My Project"
-      description="This is my awesome project"
-      imageUrl="src/assets/project-image.jpg"
-      repoUrl="https://github.com/myproject"
+      title="Mission Possible"
+      description="To do list app"
+      imageUrl="/src/assets/Mission-Possible.png"
+      repoUrl="https://github.com/Danielle73/Mission-Possible"
+    /> 
+    <ProjectCard
+      title="Cook-Nest"
+      description="A receipe app"
+      imageUrl="/src/assets/COOK-NEST.svg"
+      repoUrl="https://github.com/Danielle73/Mission-Possible"
     />
+     <ProjectCard
+      title="Quizzer App"
+      description="A quiz app"
+      imageUrl="/src/assets/gamelogo.jpg"
+      repoUrl="https://github.com/Danielle73/Mission-Possible"
+    />
+     <ProjectCard
+      title="Galactic Gateways"
+      description="To do list app"
+      imageUrl="/src/assets/galactic-gateways-logo.png"
+      repoUrl="https://github.com/Danielle73/Mission-Possible"
+    />
+
     </div>
   </div>
   )
