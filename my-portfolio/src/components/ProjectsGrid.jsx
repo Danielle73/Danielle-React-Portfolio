@@ -26,19 +26,27 @@ function ProjectsGrid(){
       title="Cook-Nest"
       description="A receipe app"
       imageUrl="/src/assets/COOK-NEST.svg"
-      repoUrl="https://github.com/Danielle73/Mission-Possible"
+      repoUrl="https://github.com/fac30/PRO05_Riley_Tanya_Dani_Levi"
     />
+
+    <ProjectCard
+      title="Canvas Collective"
+      description="An e-commerce for artists"
+      imageUrl=""
+      repoUrl="https://github.com/fac30/PRO04_FRONT_GAJ_LEVI_DANI_ITZI"
+    />
+     
      <ProjectCard
       title="Quizzer App"
       description="A quiz app"
       imageUrl="/src/assets/gamelogo.jpg"
-      repoUrl="https://github.com/Danielle73/Mission-Possible"
+      repoUrl="https://github.com/fac30/PRO03_FRONT_DANI_WILL_BEN"
     />
      <ProjectCard
       title="Galactic Gateways"
       description="To do list app"
       imageUrl="/src/assets/galactic-gateways-logo.png"
-      repoUrl="https://github.com/Danielle73/Mission-Possible"
+      repoUrl="https://github.com/fac30/PRO01_Danielle_Jason_Khalos"
     />
 
     </div>
