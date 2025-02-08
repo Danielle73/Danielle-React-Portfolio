@@ -13,9 +13,9 @@ function App() {
 
       <MainBody />
 
-      <ProjectsGrid />
-
       <AboutSection />     
+
+      <ProjectsGrid />
 
       <Footer />
     </>

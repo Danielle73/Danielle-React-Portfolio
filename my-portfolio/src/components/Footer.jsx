@@ -10,6 +10,18 @@ const currentYear = new Date().getFullYear();
     return ( 
 
         <>
+
+{/* Contact section */}
+<div id="contact" className="text-center">
+<h6 className="relative inline-block pb-2 mt-10 mb-4">
+  <span>Contact:</span>
+  <span
+    className="absolute bottom-0 left-0 w-full h-2"
+    style={{ backgroundColor: '#FDC435' }}
+  ></span>
+</h6>
+</div>
+
         <div className="footer flex flex-row justify-center space-x-4 m-5">
     {/* LinkedIn Icon */}
     <a href="https://www.linkedin.com/in/danielle-lee-ab8b0887/" target="_blank" rel="noopener noreferrer">
