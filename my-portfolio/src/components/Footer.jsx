@@ -45,7 +45,6 @@ const currentYear = new Date().getFullYear();
     </a>
 </div>
 
-
         <p className="flex justify-center text-sm" >Danielle Lee {currentYear}</p>
 
         </>
