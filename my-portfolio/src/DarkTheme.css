@@ -43,7 +43,7 @@ body {
   color: var(--primary-text);
 }
 
-h2, h6 {
+h2, h6, h3 {
   color: var(--primary-text);
 } 
 
