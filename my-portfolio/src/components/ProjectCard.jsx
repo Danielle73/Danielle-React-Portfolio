@@ -5,8 +5,8 @@ import { ArrowUpRight } from 'lucide-react';
 
 const ProjectCard = ({ 
     title = "Project Title", 
-    // description = "Project Description", 
-    imageUrl = "/api/placeholder/600/400", 
+    description = "Project Description", 
+    //imageUrl = "/api/placeholder/600/400", 
     repoUrl = "#" 
 }) => {
   return (
@@ -14,11 +14,23 @@ const ProjectCard = ({
 <div className="max-w-sm mx-auto p-4">
     <div className="dark-theme-card bg-white rounded-lg shadow-lg overflow-hidden">
     {/* Project Image */}
-    <img
+    {/* <img
       src={imageUrl}
       alt={title}
       className="w-full h-auto object-cover rounded-t-lg"
-    />
+    /> */}
+
+{/* project title */}
+
+     <h3 className="text-2xl font-bold font-[Pacifico] text-black text-center">
+        {title}
+      </h3>
+
+      {/* Project Description */}
+      <p className="text-gray-600 text-sm text-center">
+        {description}
+      </p>
+
     
     {/* Button Below Image */}
     <div className="p-4 flex justify-center">
