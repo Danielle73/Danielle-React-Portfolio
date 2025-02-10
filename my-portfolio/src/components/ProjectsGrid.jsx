@@ -44,7 +44,7 @@ function ProjectsGrid(){
     />
      <ProjectCard
       title="Galactic Gateways"
-      description="To do list app"
+      description="A interplanetary travel agents"
       //imageUrl="/src/assets/galactic-gateways-logo.png"
       repoUrl="https://github.com/fac30/PRO01_Danielle_Jason_Khalos"
     />
