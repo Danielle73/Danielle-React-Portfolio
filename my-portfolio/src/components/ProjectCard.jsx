@@ -22,11 +22,12 @@ const ProjectCard = ({
 
 {/* project title */}
 
-<h3 className="text-2xl font-bold font-[Pacifico] text-[var(--primary-text)] text-center">        {title}
+<h3 className="text-2xl font-bold font-[Pacifico] text-[var(--primary-text)] text-center">   
+  {title}
       </h3>
 
       {/* Project Description */}
-      <p className="text-gray-600 text-sm text-center">
+      <p className="text-[var(--secondary-text)] text-sm text-center mt-2"> 
         {description}
       </p>
 
