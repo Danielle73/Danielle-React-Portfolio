@@ -1,5 +1,5 @@
 // Navbar.js
-import ProfilePicture from '../assets/ProfilePicture.png';
+//import ProfilePicture from '../assets/ProfilePicture.png';
 import { FaRegFolder } from "react-icons/fa6";
 import { FaRegAddressCard } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa6";
