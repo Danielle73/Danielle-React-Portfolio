@@ -22,6 +22,12 @@ function ProjectsGrid(){
       //imageUrl="/src/assets/Mission-Possible.png"
       repoUrl="https://github.com/Danielle73/Mission-Possible"
     /> 
+      <ProjectCard
+      title="Whatever the Weather"
+      description="A weather app"
+      //imageUrl="/src/assets/Mission-Possible.png"
+      repoUrl="https://github.com/Danielle73/Weather_App"
+    /> 
     <ProjectCard
       title="Cook-Nest"
       description="A receipe app"
