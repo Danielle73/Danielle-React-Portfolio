@@ -16,7 +16,7 @@ function MainBody(){
         >LinkedIn</button> 
 
         <button className="custom-button"
-          onClick={() => window.open('https://drive.google.com/file/d/1H-dx_C4KOOyGFic981vRNUDd6Cn1DIqe/view?usp=sharing', '_blank')}
+          onClick={() => window.open('https://docs.google.com/document/d/1PpI2Y89l0L2hDfeeFyddD49pbMMatgF9/edit?usp=drive_link&ouid=102033806727803085093&rtpof=true&sd=true', '_blank')}
         >C.V.</button>
       </div>
 
