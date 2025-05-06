@@ -31,6 +31,7 @@ function ProjectsGrid(){
         🧰 Stack: React, TypeScript, Tailwind CSS.\n
         📖 Summary: A single-page app to manage tasks with local persistence.\n 
         🎯 Purpose: Created to practice CRUD operations and client-side persistence.\n
+        🧑‍💻 My Role: Built the entire app from scratch, including API integration, UI layout, and error handling.
         🚧 Challenge: I initially struggled to persist data. I solved this by learning and implementing useEffect to sync tasks with localStorage.\n
         ✅ Result: The app now persists data for user notes, and when page is reloaded.`}
       //imageUrl="/src/assets/Mission-Possible.png"
