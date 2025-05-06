@@ -6,21 +6,20 @@ const Homepage = () => {
         {/* about container */}
         <div className="aboutContainer text-wrap flex-col p-8 ml-36 mr-36 ">
 
-        <p>Hi, I&apos;m Danielle, a London-based software developer with a strong passion for front-end development. 
-          I discovered coding during the lockdown and have been hooked ever since. What excites me most about coding 
-          is the ability to bring ideas to life through creative solutions—it&apos;s been a challenging yet incredibly 
-          rewarding journey into the tech community.</p>
-        
-        <br />
-        <p>I studied full-stack development with Founder and Coders, giving me a broad foundation across both front-end 
-          and back-end technologies. While I&apos;m particularly drawn to front-end development, where I love crafting intuitive, 
-          engaging interfaces, I&apos;m always eager to explore and expand my skills in all areas of development.</p>
-
-        <br />
-        
-        <p>Above all, the most rewarding part of my journey has been the supportive and collaborative community I&apos;ve found, 
-          where peer-led support and knowledge-sharing help me grow every day.</p>
-         <br /> 
+        <p>
+          Hi, I&apos;m Danielle, a Front-End Developer with a strong foundation in React, TypeScript, and JavaScript. 
+          After completing the Founders & Coders bootcamp, I&apos;ve continued refining my skills through personal projects, 
+          technical challenges, and continuous learning.
+          </p>
+          <br />
+          <p>
+          With a background in marketing and customer service, I bring a user-focused approach to web development — ensuring accessibility, 
+          performance, and clean, intuitive design. While my expertise lies in front-end development, I also have experience working 
+          with Node.js and Express.js, allowing me to collaborate effectively across the full stack when needed.
+          I&apos;m currently seeking opportunities to grow as a developer and contribute to meaningful projects. 
+          If you&apos;re looking for a passionate front-end developer with full-stack experience, let&apos;s connect!
+          </p>
+      <br /> 
         <p>Beyond tech, I&apos;m a travel enthusiast, a puzzle lover, and an avid language learner (thanks to Duolingo&apos;s duress).</p>
     
         </div>
