@@ -1,14 +1,19 @@
 //import React from 'react';
 /* eslint-disable react/prop-types */
 
-import { ArrowUpRight } from 'lucide-react';
+import { useState } from 'react';
+import { ArrowUpRight, ChevronDown, ChevronUp } from 'lucide-react';
 
 const ProjectCard = ({ 
     title = "Project Title", 
     description = "Project Description", 
     //imageUrl = "/api/placeholder/600/400", 
-    repoUrl = "#" 
+    repoUrl = "#", 
+    details = ""
 }) => {
+
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
     <>
 <div className="max-w-sm mx-auto p-4">
@@ -24,16 +29,39 @@ const ProjectCard = ({
 
 <h3 className="text-2xl font-bold font-[Pacifico] text-[var(--primary-text)] text-center">   
   {title}
-      </h3>
+</h3>
 
-      {/* Project Description */}
-      <p className="text-[var(--secondary-text)] text-sm text-center mt-2"> 
-        {description}
-      </p>
+{/* Project Description */}
+<p className="text-[var(--secondary-text)] text-sm text-center mt-2"> 
+{description}
+</p>
+
+{/* Expandable Details */}
+
+{isExpanded && (
+
+<div className="text-sm text-gray-700 px-4 mt-4 space-y-2">
+{details.split('\n').map((line, index) => (
+              <p key={index} className="text-left">{line}</p>
+            ))}
+</div>
+)}
+
+{/* Toggle Read More Button */}
+<div className="flex justify-center mt-2">
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="text-xs text-blue-600 underline flex items-center gap-1"
+          >
+            {isExpanded ? <>Read Less <ChevronUp className="w-4 h-4" /></> : <>Read More <ChevronDown className="w-4 h-4" /></>}
+          </button>
+        </div>
+
+
 
     
-    {/* Button Below Image */}
-    <div className="p-4 flex justify-center">
+{/* Repo button Below Image */}
+<div className="p-4 flex justify-center">
       <a
         href={repoUrl}
         target="_blank"
@@ -42,8 +70,8 @@ const ProjectCard = ({
       >
         View Repository <ArrowUpRight className="w-4 h-4" />
       </a>
-    </div>
-  </div>
+</div>
+</div>
 </div>
     </>
   );
