@@ -26,7 +26,7 @@ const currentYear = new Date().getFullYear();
     {/* LinkedIn Icon */}
     <a href="https://www.linkedin.com/in/danielle-lee-ab8b0887/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
         <div className="border-2 border-yellow-400 p-1 ">
-            <FaLinkedin size={32} color="#4e4b4b" />
+            <FaLinkedin size={32} color="#4e4b4b" aria-hidden="true"/>
         </div>
     </a>
 
