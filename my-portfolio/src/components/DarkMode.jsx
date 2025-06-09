@@ -25,6 +25,7 @@ function DarkTheme() {
           id="checkbox"
           checked={light}
           onChange={toggleTheme}
+          aria-label="Toggle light and dark mode"
         />
         <div className="slider round"></div>
       </label>
