@@ -15,9 +15,13 @@ function MainBody(){
         onClick={() => window.open("https://www.linkedin.com/in/danielle-lee-ab8b0887/", "_blank")}
         >LinkedIn</button> 
 
-        <button className="custom-button"
+        <button className="custom-button mr-2"
           onClick={() => window.open('https://docs.google.com/document/d/1PpI2Y89l0L2hDfeeFyddD49pbMMatgF9/edit?usp=drive_link&ouid=102033806727803085093&rtpof=true&sd=true', '_blank')}
         >C.V.</button>
+
+         <button className="custom-button"
+          onClick={() => window.open('https://accessibility-blog.vercel.app/', '_blank')}
+        >Accessibility Blog</button>
       </div>
 
      <div className="RightContainer relative m-3 mt-8">
