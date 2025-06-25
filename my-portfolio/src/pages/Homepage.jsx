@@ -13,13 +13,12 @@ const Homepage = () => {
           </p>
           <br />
           <p>
-          With a background in marketing and customer service, I bring a user-focused approach to web development — ensuring accessibility, 
-          performance, and clean, intuitive design. While my expertise lies in front-end development, I also have experience working 
-          with Node.js and Express.js, allowing me to collaborate effectively across the full stack when needed.
-          I&apos;m currently seeking opportunities to grow as a developer and contribute to meaningful projects. 
-          If you&apos;re looking for a passionate front-end developer with full-stack experience, let&apos;s connect!
-          </p>
-      <br /> 
+            With a background in marketing and customer service, I bring a user-focused approach to web development
+            alongside a growing specialisation in web accessibility and inclusive design. 
+            I&apos;m committed to learning and implementing WCAG guidelines, semantic HTML, and accessible design patterns 
+            to create better experiences for all users.
+            </p>
+          <br /> 
         <p>Beyond tech, I&apos;m a travel enthusiast, a puzzle lover, and an avid language learner (thanks to Duolingo&apos;s duress).</p>
     
         </div>
