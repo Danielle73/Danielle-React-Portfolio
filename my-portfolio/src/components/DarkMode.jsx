@@ -20,6 +20,7 @@ function DarkTheme() {
     <div className="toggle-theme-wrapper">
       <span>☀️</span>
       <label className="toggle-theme" htmlFor="checkbox">
+        <span className="sr-only"> Toggle light and dark mode </span>
         <input
           type="checkbox"
           id="checkbox"
