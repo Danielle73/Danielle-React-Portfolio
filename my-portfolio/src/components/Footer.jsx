@@ -1,6 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { SiCodewars } from "react-icons/si";
+// import { SiCodewars } from "react-icons/si";
 
 const Footer = () => {
 
@@ -24,28 +24,30 @@ const currentYear = new Date().getFullYear();
 
         <div className="footer flex flex-row justify-center space-x-4 m-5">
     {/* LinkedIn Icon */}
-    <a href="https://www.linkedin.com/in/danielle-lee-ab8b0887/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+    <a href="https://www.linkedin.com/in/danielle-lee-ab8b0887/" target="_blank" rel="noopener noreferrer">
         <div className="border-2 border-yellow-400 p-1 ">
             <FaLinkedin size={32} color="#4e4b4b" aria-hidden="true"/>
         </div>
+        <span className="sr-only">Visit my LinkedIn profile</span>
     </a>
 
     {/* Github Icon */}
     <a href="https://github.com/Danielle73/" target="_blank" rel="noopener noreferrer">
         <div className="border-2 border-yellow-400 p-1 rounded-full">
-            <FaGithub size={32} color="#4e4b4b" />
+            <FaGithub size={32} color="#4e4b4b" aria-hidden="true"/>
         </div>
+        <span className="sr-only">Visit my GitHub profile</span>
     </a>
 
     {/* Codewars Icon */}
-    <a href="https://www.linkedin.com/in/danielle-lee-ab8b0887/" target="_blank" rel="noopener noreferrer">
+    {/* <a href="https://www.linkedin.com/in/danielle-lee-ab8b0887/" target="_blank" rel="noopener noreferrer">
         <div className="border-2 border-yellow-400 p-1 ">
             <SiCodewars size={32} color="#4e4b4b" />
         </div>
-    </a>
+    </a> */}
 </div>
 
-        <p className="flex justify-center text-sm" >Danielle Lee {currentYear}</p>
+        <p className="flex justify-center text-sm text-gray-700">Danielle Lee {currentYear}</p>
 
         </>
     );
