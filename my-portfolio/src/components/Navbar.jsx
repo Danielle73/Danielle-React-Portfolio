@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* Home Link */}
         <a
           href="#home"
-          className="mr-96 flex items-center gap-2 relative px-4 py-3 after:block after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+          className="mr-96 flex items-center gap-2 relative px-4 py-3 text-gray-700 after:block after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
         >
           <BsHouseHeart className="text-lg" />
           Danielle Lee
@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* Other Links */}
         <a
           href="#about"
-          className="relative px-4 py-3 after:block after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 flex items-center gap-2"
+          className="relative px-4 py-3 text-gray-700 after:block after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 flex items-center gap-2"
         >
           <FaRegAddressCard className="text-lg" />
           About
@@ -30,7 +30,7 @@ const Navbar = () => {
 
         <a
           href="#projects"
-          className="relative px-4 py-3 after:block after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 flex items-center gap-2"
+          className="relative px-4 py-3 text-gray-700 after:block after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 flex items-center gap-2"
         >
           <FaRegFolder className="text-lg" />
           Projects
@@ -38,7 +38,7 @@ const Navbar = () => {
 
         <a
           href="#contact"
-          className="relative px-4 py-3 after:block after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 flex items-center gap-2"
+          className="relative px-4 py-3 text-gray-700 after:block after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 flex items-center gap-2"
         >
           <FaRegEnvelope className="text-lg" />
           Contact
@@ -47,7 +47,7 @@ const Navbar = () => {
         <a
           href="https://www.skiptocontent.co.uk/"
           target="_blank"
-          className="relative px-4 py-3 after:block after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 flex items-center gap-2"
+          className="relative px-4 py-3 text-gray-700 after:block after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 flex items-center gap-2"
         >
           <FaBlogger className="text-lg" />
           Blog
