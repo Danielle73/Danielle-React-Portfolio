@@ -8,10 +8,10 @@ function MainBody() {
             Hello I&apos;m <br /> Danielle
           </h2>
           <div className="aboutMeParagraph text-4xl">
-            <p>
+            <p className="text-gray-700">
               I&apos;m a Front-End Developer <br /> based in London.
             </p>
-            <p>Nice to meet you!</p>
+            <p className="text-gray-700">Nice to meet you!</p>
           </div>
           <br />
           <button
