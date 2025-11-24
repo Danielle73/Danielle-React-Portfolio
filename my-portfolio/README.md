@@ -17,6 +17,11 @@ It demonstrates modern frontend practices including component-based architecture
 - Contact and social links
 - Deployed on Vercel with continuous deployment
 
+### Design Reference
+
+This project was loosely inspired by design concepts found in a [Figma](https://www.figma.com/design/Ik0BI1TuWstHm2EqVMgSuw/Personal-Portfolio-Website-Template--Community-?node-id=0-1&p=f&t=F3BXpqiyPMZ6K99y-0) community file.
+I used it as a creative reference while developing my own layout and components.
+
 ### Tech Stack
 
 - React 
