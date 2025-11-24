@@ -30,7 +30,7 @@ function MainBody() {
             className="custom-button mr-2"
             onClick={() =>
               window.open(
-                "https://docs.google.com/document/d/1PpI2Y89l0L2hDfeeFyddD49pbMMatgF9/edit?usp=drive_link&ouid=102033806727803085093&rtpof=true&sd=true",
+                "https://docs.google.com/document/d/14WT0Z7h_iyHSW5uqjOwmy3CHX5JeKple0oPftN9GG6I/edit?usp=sharing,",
                 "_blank"
               )
             }
