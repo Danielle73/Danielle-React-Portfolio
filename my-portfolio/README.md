@@ -1,3 +1,5 @@
+### About
+
 A fast, accessible, and modern personal portfolio showcasing projects, experience, and design work.
 This site highlights frontend development skills with a focus on performance, accessibility, and clean UI.
 
