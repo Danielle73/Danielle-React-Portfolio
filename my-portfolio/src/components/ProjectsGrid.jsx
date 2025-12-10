@@ -10,6 +10,21 @@ function ProjectsGrid(){
       ></span>
     </h2>
     <div className="flex flex-wrap mt-28">
+
+  <ProjectCard 
+  title="Garnet"
+  description="A period tracker app"
+  details={`
+    🧰 Stack: React, TypeScript, Vite, shadcn/ui, Tailwind CSS, React Router.\n
+    📖 Summary: Garnet is a clean, privacy-focused period tracking app that lets users log their menstrual cycle and view their history through an interactive calendar.\n
+    🎯 Purpose: To build a real-world product while improving my skills in React, TypeScript, UI architecture, state management, and routing.\n
+    🧑‍💻 My Role: Designed the UI, set up the React/TypeScript architecture, implemented calendar logging, built a multi-screen flow (Home → Tracker → History), and structured reusable components.\n
+    🚧 Challenge: Handling multi-step period logging (start → end), syncing data across screens, managing date ranges for calendar highlighting, and organizing state to avoid prop-drilling.\n
+    ✅ Result: A functioning MVP with a home screen, calendar tracker, date-range highlighting, and a dedicated history screen — ready for future features like insights, predictions, and a backend.
+  `}
+  repoUrl="https://github.com/Danielle73/Garnet"
+/>
+
     <ProjectCard 
       title="Simon Game"
       description="A color memory game"
