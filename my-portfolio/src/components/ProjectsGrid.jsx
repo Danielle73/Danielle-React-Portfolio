@@ -25,7 +25,22 @@ function ProjectsGrid(){
   repoUrl="https://github.com/Danielle73/Garnet"
 />
 
-    <ProjectCard 
+ <ProjectCard 
+      title="Habit tracker"
+      description="Build daily habits"
+      details={`
+        🧰 Stack: React, Typescript, Vite, Tailwind, JavaScript, HTML, CSS.\n
+        📖 Summary: A Habit tracker for users to build and categorise habits to complete daily.\n
+        🎯 Purpose: To explore React and PWA development.\n
+        🧑‍💻 My Role: Developed app idea and UI/UX.\n
+        🚧 Challenge: Ongoing updates and features for users.\n
+        ✅ Result: Produced a PWA that can be accessed offline and is Mobile friendly.`}
+
+      //imageUrl="src/assets/SimonGame.png"
+      repoUrl="https://github.com/Danielle73/habit-tracker"
+    />
+
+    {/* <ProjectCard 
       title="Simon Game"
       description="A color memory game"
       details={`
@@ -38,8 +53,9 @@ function ProjectsGrid(){
 
       //imageUrl="src/assets/SimonGame.png"
       repoUrl="https://github.com/FAC-community/summer2024/tree/main/users/Danielle%26JackGame/Simon%20game%20Vanilla"
-    />
-    <ProjectCard
+    /> */}
+
+    {/* <ProjectCard
       title="Mission Possible"
       description="To do list app"
       details={`
@@ -52,6 +68,7 @@ function ProjectsGrid(){
       //imageUrl="/src/assets/Mission-Possible.png"
       repoUrl="https://github.com/Danielle73/Mission-Possible"
     /> 
+     */}
       <ProjectCard
       title="Whatever the Weather"
       description="A Weather app"
@@ -66,7 +83,8 @@ function ProjectsGrid(){
       //imageUrl="/src/assets/Mission-Possible.png"
       repoUrl="https://github.com/Danielle73/Weather_App"
     /> 
-    <ProjectCard
+
+    {/* <ProjectCard
       title="Cook-Nest"
       description="A receipe app"
       details={`🧰 Stack: C#, PostgreSQL, React, TypeScript\n
@@ -78,9 +96,9 @@ function ProjectsGrid(){
 
       //imageUrl="/src/assets/COOK-NEST.svg"
       repoUrl="https://github.com/fac30/PRO05_Riley_Tanya_Dani_Levi"
-    />
+    /> */}
 
-    <ProjectCard
+    {/* <ProjectCard
       title="Canvas Collective"
       description="An e-commerce for artists"
       details={`
@@ -94,8 +112,10 @@ function ProjectsGrid(){
       //imageUrl=""
       repoUrl="https://github.com/fac30/PRO04_FRONT_GAJ_LEVI_DANI_ITZI"
     />
-     
-     <ProjectCard
+      */}
+
+
+     {/* <ProjectCard
       title="Quizzer App"
       description="A quiz app"
       details={`
@@ -108,8 +128,10 @@ function ProjectsGrid(){
 
       //imageUrl="/src/assets/gamelogo.jpg"
       repoUrl="https://github.com/fac30/PRO03_FRONT_DANI_WILL_BEN"
-    />
-     <ProjectCard
+    /> */}
+
+
+     {/* <ProjectCard
       title="Galactic Gateways"
       description="A interplanetary travel agents"
       details={`
@@ -122,7 +144,7 @@ function ProjectsGrid(){
 
       //imageUrl="/src/assets/galactic-gateways-logo.png"
       repoUrl="https://github.com/fac30/PRO01_Danielle_Jason_Khalos"
-    />
+    /> */}
 
     </div>
   </div>
