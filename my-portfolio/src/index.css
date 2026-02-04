@@ -60,7 +60,7 @@ a , p {
 }
 .custom-button:hover {
   border-color: #646cff;
-  background-color: #FDC435; /* Match the hover effect from your original CSS */
+  background-color: #fdc435; /* Match the hover effect from your original CSS */
 }
 .custom-button:focus,
 .custom-button:focus-visible {

@@ -1,63 +1,77 @@
-/* Default Light Theme */
+/* ===== COLOR THEMES ===== */
+
+/* Light Theme (Default) */
 :root {
   --primary-bg: #F9FAFF;
   --secondary-bg: #FFFFFF;
-  /* --accent: #007BFF; */
   --primary-text: #25282B;
+  --primary-p-text: #25282B;
   --secondary-text: #6C757D;
   --borders: #E0E0E0;
+  --accent:  #fdc435;
   --hover-accent: #0056b3;
   --success: #28A745;
   --error: #DC3545;
+  --nav-text: #FFFFFF;
+  --nav-link: #FFFFFF;
+  --nav-link-hover: #E0E0E0;
 }
 
 /* Dark Theme */
-/* body.dark-mode {
-  --primary-bg: #121212;
-  --secondary-bg: #1E1E1E;
-  --accent: #BB86FC;
-  --primary-text: #EDEDED;
-  --secondary-text: #A3A3A3;
-  --borders: #323232;
-  --hover-accent: #3700B3;
-  --success: #03DAC5;
-  --error: #CF6679;
-} */
-
 body.dark-mode {
-  --primary-bg: #000022; /* For main background to create depth */
-  --secondary-bg: #312c4a; /*Used for sections, cards, or subtle contrast areas*/
-  --accent: #463f59; /*Navbar, buttons, borders, or highlights*/
+  --primary-bg: #000022;
+  --secondary-bg: #312c4a;
+  --accent: #463f59;
   --primary-text: #7E738C;
-  --secondary-text: #897c8f; /*For subtitles, less prominent text, and borders*/
+  --primary-p-text: #EDEDED;
+  --secondary-text: #897c8f;
   --borders: #323232;
-  --hover-accent: #3700B3;
+  --hover-accent: #6B5E7A;
   --success: #03DAC5;
   --error: #CF6679;
+  --nav-text: #EDEDED;
+  --nav-link: #EDEDED;
+  --nav-link-hover: #FFFFFF;
 }
 
+/* ===== BASE STYLES ===== */
 
-/* Apply Colors */
 body {
   background-color: var(--primary-bg);
   color: var(--primary-text);
 }
 
-h2, h6, h3 {
+h2, h3, h6 {
   color: var(--primary-text);
-} 
-
-p , a {
-  color: var(--secondary-text)
 }
 
+p, a {
+  color: var(--primary-p-text);
+}
+
+/* ===== COMPONENTS ===== */
+
+/* Navigation */
 .NavContainer {
   background-color: var(--accent);
+  color: var(--nav-text);
 }
 
+.NavContainer a {
+  color: var(--nav-link);
+  transition: color 0.3s ease;
+}
+
+.NavContainer a:hover {
+  color: var(--nav-link-hover);
+}
+
+/* Cards */
 .dark-theme-card {
   background-color: var(--secondary-bg);
 }
+
+/* ===== THEME TOGGLE ===== */
 
 .toggle-theme-wrapper {
   display: flex;
@@ -70,10 +84,6 @@ p , a {
   font-size: 28px;
 }
 
-.toggle-theme input {
-  display: none;
-}
-
 .toggle-theme {
   position: relative;
   display: inline-block;
@@ -81,42 +91,37 @@ p , a {
   width: 60px;
 }
 
+.toggle-theme input {
+  display: none;
+}
+
 .slider {
   background-color: #ccc;
   position: absolute;
   cursor: pointer;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  transition: 0.4s;
+  inset: 0;
+  transition: background-color 0.4s;
+  border-radius: 34px;
 }
 
 .slider:before {
-  background-color: white;
   content: "";
   position: absolute;
   bottom: 4px;
   left: 4px;
   height: 26px;
   width: 26px;
-  transition: 0.4s;
+  background-color: white;
+  transition: transform 0.4s;
+  border-radius: 50%;
 }
 
 input:checked + .slider {
-  background-color: cornflowerblue;
+  background-color: #BB86FC;
 }
 
 input:checked + .slider:before {
   transform: translateX(26px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
 }
 
 .sr-only {
@@ -124,10 +129,10 @@ input:checked + .slider:before {
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
   padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  border: 0;
   overflow: hidden;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
 }
