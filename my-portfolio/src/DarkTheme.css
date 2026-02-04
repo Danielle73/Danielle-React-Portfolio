@@ -22,7 +22,7 @@ body.dark-mode {
   --primary-bg: #000022;
   --secondary-bg: #312c4a;
   --accent: #463f59;
-  --primary-text: #7E738C;
+  --primary-text: #EDEDED;  
   --primary-p-text: #EDEDED;
   --secondary-text: #897c8f;
   --borders: #323232;
@@ -34,6 +34,15 @@ body.dark-mode {
   --nav-link-hover: #FFFFFF;
 }
 
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode a {
+  color: #EDEDED;
+}
 /* ===== BASE STYLES ===== */
 
 body {
