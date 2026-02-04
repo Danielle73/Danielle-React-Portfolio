@@ -11,44 +11,18 @@ function ProjectsGrid(){
     </h2>
     <div className="flex flex-wrap mt-28">
 
-  <ProjectCard 
-  title="Garnet"
-  description="A period tracker app with interactive calendar"
-  details={`
-    🧰 Stack: React, TypeScript, Vite, shadcn/ui, Tailwind CSS, React Router.\n
-    📖 Summary: Garnet is a period tracking app that lets users log their menstrual cycle and view their history through an interactive calendar.\n
-    🎯 Highlights: To build a real-world product while improving my skills in React, TypeScript, UI architecture, state management, and routing.\n
-    🧑‍💻 My Role: Designed the UI, set up the React/TypeScript architecture, implemented calendar logging, built a multi-screen flow (Home → Tracker → History), and structured reusable components.\n
-    🚧 Challenge: Handling multi-step period logging (start → end), syncing data across screens, managing date ranges for calendar highlighting, and organizing state to avoid prop-drilling.\n
-    ✅ Result: A functioning MVP with a home screen, calendar tracker, date-range highlighting, and a dedicated history screen — ready for future features like insights, predictions, and a backend.
-  `}
-  repoUrl="https://github.com/Danielle73/Garnet"
-/>
-
- <ProjectCard 
-      title="Habit tracker"
-      description="Build daily habits"
-      details={`
-        🧰 Stack: React, Typescript, Vite, Tailwind, JavaScript, HTML, CSS.\n
-        📖 Summary: A Habit tracker for users to build and categorise habits to complete daily.\n
-        🎯 Purpose: To explore React and PWA development.\n
-        🧑‍💻 My Role: Developed app idea and UI/UX.\n
-        🚧 Challenge: Ongoing updates and features for users.\n
-        ✅ Result: Produced a PWA that can be accessed offline and is Mobile friendly.`}
-
-      //imageUrl="src/assets/SimonGame.png"
-      repoUrl="https://github.com/Danielle73/habit-tracker"
-    />
 
   <ProjectCard 
   title="AI Background Remover"
   description="Real-time background removal with MediaPipe"
   details={`
-      🧰 Stack: Next.js • React • MediaPipe • TensorFlow.js • Canvas API. \n
-      📖 Summary: 
-      Browser-based image processing tool leveraging Google's MediaPipe for real-time background removal. Demonstrates integration of pre-trained ML models for client-side computer vision tasks. \n
+      Stack: Next.js • React • MediaPipe • TensorFlow.js • Canvas API. \n
+      Summary: 
+      Browser-based image processing tool leveraging Google's MediaPipe for real-time background removal. 
+      Demonstrates integration of pre-trained ML models for client-side computer vision tasks. \n
       Built following MediaPipe documentation to understand ML model integration in production web apps. \n
-      🎯 Highlights: 
+      
+      Highlights: 
       • Integrated Google's MediaPipe Selfie Segmentation model for accurate person detection. \n
       • Implemented Canvas API for pixel-level image processing and composition. \n
       • Optimized client-side performance for real-time processing without backend dependencies. \n
@@ -56,17 +30,40 @@ function ProjectsGrid(){
       repoUrl="https://github.com/Danielle73/mediapipe-background-remover"
 /> 
 
+  <ProjectCard 
+  title="Garnet"
+  description="A privacy focused menstrual cycle tracker"
+  details={`
+    Stack: React • TypeScript • Tailwind CSS • shadcn/ui
+    Summary: Garnet is a client-side period tracking app that keeps the user data local on the user's device. 
+    No servers, accounts or tracking, Garnet provides private cycle logging and history visualisaton through an interactive calendar.  
+  `}
+  repoUrl="https://github.com/Danielle73/Garnet"
+/>
+
+
+ <ProjectCard 
+      title="Habit tracker"
+      description="Daily habit builder with offline support"
+      details={`
+        Stack: React • Typescript • Vite • Tailwind • HTML • CSS.\n
+        Summary: A Progressive Web App for building daily habbits with offline-first architecture.\n
+        Can be installed on any device for native app-like experience with full offline functionality.
+            `}
+
+      //imageUrl="src/assets/SimonGame.png"
+      repoUrl="https://github.com/Danielle73/habit-tracker"
+    />
+
+
    <ProjectCard
       title="Whatever the Weather"
-      description="A Weather app"
+      description="Real-time API integration with error handling"
       details={`
-        🧰 Stack: JavaScript, HTML, CSS, OpenWeatherMap API\n
-        📖 Summary: A weather dashboard that lets users search for real-time weather data by city.\n
-        🎯 Purpose: Practice working with external APIs, asynchronous JavaScript, and dynamic DOM updates.\n
-        🧑‍💻 My Role: Built the entire app from scratch, including API integration, UI layout, and error handling.\n
-        🚧 Challenge: Handling API errors gracefully (e.g., invalid city names) and displaying fallback states.\n
-        ✅ Result: Created a clean, responsive interface with accurate weather updates and smooth user interactions.`}
-
+        Stack: React • TypeScript • Axios • OpenWeather API\n
+        Summary: 
+        A Client-side application demonstrating RESTful API integration, asynchronous JavaScript, and error handling for invalid inputs and network failures.\n
+        `}
       //imageUrl="/src/assets/Mission-Possible.png"
       repoUrl="https://github.com/Danielle73/Weather_App"
     /> 
